@@ -1,6 +1,10 @@
-html, head, body, img, p, h1, h2, h3 {
+html, head, body, img, p, h1, h2, h3, ul, li {
     padding: 0;
     margin: 0;
+}
+
+html {
+    overflow: hidden;
 }
 
 .background-img {
@@ -8,4 +12,49 @@ html, head, body, img, p, h1, h2, h3 {
     background-image: url('./assets/stock-pic.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10, 60px);
 }
+
+
+
+.nav-item {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 2px 15px;
+}
+
+.day-of {
+    grid-column: 7 / 8;
+
+}
+.dj {
+    grid-column: 8 / 9;
+
+}
+.graphic {
+    grid-column: 9 / 10;
+
+}
+.photo {
+    grid-column: 10 / 11;
+}
+
+.title {
+  color: white;
+  margin: 25% auto 50% auto;
+  width: 75%;
+  font-size: 5vw;
+  text-align: center;
+  font-family: Arial, monospace;
+  font-style: italic;
+}
+
+ .because-header {
+    color: #d6ada7;
+    font-size: 40px;
+ }
