@@ -3,9 +3,6 @@ html, head, body, img, p, h1, h2, h3, ul, li {
     margin: 0;
 }
 
-html {
-    overflow: hidden;
-}
 
 .background-img {
     height: 100%;
