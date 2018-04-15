@@ -6,7 +6,7 @@ html, head, body, img, p, h1, h2, h3, ul, li {
 
 .background-img {
     height: 100%;
-    background-image: url('./assets/stock-pic.jpg');
+    background-image: url('./assets/happy.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     display: grid;
